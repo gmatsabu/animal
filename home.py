@@ -14,16 +14,16 @@ class Home:
         self.pets.append(pet)
 
     def sounds(self):
-        return dog1.food()    
+        return dog1.eat()    
 
 if __name__== "__main__":
     home = Home()
-    dog1 = Dog("Rax","Barks")
-    cat2 = Cat("Stormy","meows")
+    dog1 = Dog(" ","Barks")
+    cat2 = Cat(" ","meows")
 
     home.adopt_pet(dog1)
     home.adopt_pet(cat2)
 
     print("The pets you can adopt")
-    print(home.pets[0].name)
-    print(home.pets[1].name)            
+    print(home.pets[0].eat)
+    print(home.pets[1].eat)            

@@ -2,15 +2,15 @@ from animal import Animal
 
 class Cat(Animal):
 
-    def __init__(self,petname,sound):
-        super().__init__(petname,sound)
+    def __init__(self,eats,sound):
+        super().__init__(eats,sound)
 
-    def food(self):
-        print(self.name + "eats")
+    def eat(self):
+        return(self.eats + "Food")
 
     def sounds(self):
-        print(self.sound,"meows")
+        return(self.sound,"Meow")
 
-cat_1 =Cat("stormy","cat")
-cat_1.food()
-cat_1.sounds()
+cat_1 =Cat(" ","cat")
+cat_1.eat()
+#cat_1.sounds()

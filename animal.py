@@ -1,19 +1,20 @@
 class Animal:
-    def __init__(self,petname,sound):
+    def __init__(self,eats,sound):
     
-        self.name = petname 
+        self.eats = eats 
         self.sound = sound
 
-
-    def food(self):
-        print("{} eats".format(self.name))
+     
+    def eat(self):
+        return '{} Food'.format(self.eats)
 
     def sounds(self):
-        print("{} barks".format(self.sound))
+        return '{} Barks'.format(self.sound)
 
 
-dog = Animal("Rax","Dog")
-cat = Animal("Stomy","Cat")
+dog = Animal(" ","Dog")
+cat = Animal(" ","Cat")
 
-dog.food()
-dog.sounds()
+print (dog.eat())
+print(cat.eat())
+#dog.sounds()
