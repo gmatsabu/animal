@@ -6,15 +6,17 @@ class Animal:
 
      
     def eat(self):
-        return '{} Food'.format(self.eats)
+        return self.eats
+        #return '{} Food'.format(self.eats)
 
     def sounds(self):
-        return '{} Barks'.format(self.sound)
+        return self.sound
+        #return '{} Barks'.format(self.sound)
 
 
-dog = Animal(" ","Dog")
-cat = Animal(" ","Cat")
+dog = Animal("Food ","Barks")
+cat = Animal("Food","Meow ")
 
 print (dog.eat())
-print(cat.eat())
+print(dog.sounds())
 #dog.sounds()

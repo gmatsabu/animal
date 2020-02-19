@@ -10,6 +10,6 @@ class Dog(Animal):
     def sounds(self):
         return self.sound,"Barks"
 
-dog_1 = Dog(" ","Dog")
+dog_1 = Dog("rax ","Dog")
 dog_1.eat()
 #dog_1.sounds()

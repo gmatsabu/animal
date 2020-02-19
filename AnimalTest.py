@@ -1,6 +1,6 @@
 import unittest
 from animal import Animal
-
+from animal import Animal
 class TestAnimal(unittest.TestCase):
 
       
